@@ -1,0 +1,78 @@
+div#drawer{
+    background-color:#DDD;
+}
+.block{
+	display:block;
+	text-decoration:none;
+	color:black;
+}
+.block:hover{
+    background-color:#DDD;
+}
+.rect{
+	display:block inline;
+	text-decoration:none;
+	color:black;
+}
+.rect:hover{
+    background-color:#DDD;
+}
+.big{
+    font-size:36px;
+}
+.down{
+    margin-top:15px;
+}
+.hide{
+    display:none;
+}
+.sliding{
+    display:none;
+    padding:5px;
+}
+#searchingBar{
+    border-radius:5px 5px 5px 5px;
+    font-size:15px;
+    text-align:center;
+    border:1px solid #DDD;
+}
+#searchingBox{
+    border:1px solid #DDD;
+    background-color:#FFF;
+    position:absolute;
+    width:300px;
+    top:0px;
+    border-radius:0px 0px 5px 5px;
+    display:none;
+    overflow-y:scroll;
+    height:300px;
+}
+#searchingBox ul{
+    list-style-type:none;
+}
+#searchingBox ul li{
+    margin-left:-40px;
+}
+.left-float{
+    float:left;
+    display:inline;
+}
+.Center{
+    margin:0 auto;
+}
+html {
+-ms-overflow-style:none;
+overflow:-moz-scrollbars-none;
+}
+.res320{
+    float:left;
+    max-width:320px;
+}
+.res320_end{
+    clear:both;
+}
+.MathJaxFont{
+    font-family:MathJax_Math;
+    font-style:italic;
+    font-size:16px;
+}

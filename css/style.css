@@ -1,0 +1,22 @@
+.fleft{
+	float:left;
+}
+.fleft h3{
+	text-align:center;
+}
+.czjz{
+	margin-top:auto;
+	margin-bottom:auto;
+	height:auto;
+	width:100%;
+}
+.fillWS{
+	width:300px;
+}
+.w3-round-large .header{border-radius:8px 8px 0px 0px;margin:0px;}
+.header h1{margin:0px}
+.w3-round-large{overflow:hidden}
+.w3-animate-fadein{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.w3-animate-fadeout{animation:opac 0.8s}@keyframes opac{from{opacity:1} to{opacity:0}}
+.w3-animate-fadeinO{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:0.5}}
+.w3-animate-fadeoutO{animation:opac 0.8s}@keyframes opac{from{opacity:0.5} to{opacity:0}}
